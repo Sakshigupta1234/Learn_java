@@ -1,11 +1,17 @@
 package Day1;
 
 public class Student {
- String name;
+ String name;  //class variables
  int age;
  char grade;
  
- void printStudentData() {
+ void printStudentData() //No parameter no return value
+ {
 	 System.out.println(name+ " "+age+" "+" "+grade);
+ }
+ void setStudentData(int Sage, String Sname, char Sgrade) {
+	 name=Sname;
+	 age=Sage;
+	 grade=Sgrade;
  }
 }
