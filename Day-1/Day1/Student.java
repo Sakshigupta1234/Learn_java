@@ -9,7 +9,8 @@ public class Student {
  {
 	 System.out.println(name+ " "+age+" "+" "+grade);
  }
- void setStudentData(int Sage, String Sname, char Sgrade) {
+ void setStudentData(int Sage, String Sname, char Sgrade) //takes parameter, no return value
+	{
 	 name=Sname;
 	 age=Sage;
 	 grade=Sgrade;
