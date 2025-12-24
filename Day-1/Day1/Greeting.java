@@ -8,7 +8,10 @@ public class Greeting {
     Suppose, you want to do some task repetitively, so instead of writing same code a2a we'll create a method
     & whenever you want to perform a task, we will just call that method & that method will perform the job
     
-    *** We have to call the methods through object..
+    *Method name can be anything
+    *Method may /may not return value
+    * We have to  invoke/call the methods explicitly through object..
+    *Method is used to specify logic
 
     Types of methods:
     -->Built in methods ->Already exist in java we have to just call them whenever it's required..
@@ -25,8 +28,8 @@ public class Greeting {
 
  
 	//1. No parameter with no return value
-    //Note*- if method is not returning any value so, we have to specify return value as 'void' otherwise it shwos error..
-      void m1(){
+      void m1() //If method is not return any value then specify void
+      {
         System.out.println("hey");
       }
       
